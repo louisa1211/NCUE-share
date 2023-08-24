@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/YUYING/scene/cat_game_intro.unity
+- path: Assets/YILING/Scenes/1_Home.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
