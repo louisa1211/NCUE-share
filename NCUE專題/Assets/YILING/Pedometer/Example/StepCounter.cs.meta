@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21f5752f378f34804a2850c37523d8ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stepText: {fileID: 4197384859572839575, guid: dff71a9ed5fd8f64d9f0f72677adaba1,
+      type: 3}
+  - distanceText: {fileID: 3788556599428492209, guid: f4463be22879e8b4198653340cc9f5fb,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

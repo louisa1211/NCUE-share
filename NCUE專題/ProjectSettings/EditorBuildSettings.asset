@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/YILING/Scenes/6_5Profile_myprofile.unity
     guid: abccbe74465823a4ab1e4346658a87f5
+  - enabled: 1
+    path: Assets/YILING/Pedometer/Example/StepCounter.unity
+    guid: e5fcab55ab6a24d8eb5dd6198b597019
   m_configObjects: {}
