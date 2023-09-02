@@ -5,13 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class cat_canvasChooseBox : MonoBehaviour
 {
-    public void ClickCancel()
+    public GameObject box;
+    public GameObject box1;
+    public GameObject box2;
+
+    public GameObject panelIntro;
+
+    public void ClickConfirm()
     {
-        gameObject.SetActive(false);
+        panelIntro.SetActive(false);
+
+        box.GetComponent<cat_box>().enabled = true;
+        box1.GetComponent<cat_box>().enabled = true;
+        box2.GetComponent<cat_box>().enabled = true;
     }
 
-    public void ClickDone()
+    public void ClickBack()
     {
-        SceneManager.LoadScene("cat_game");
+        SceneManager.LoadScene("cat_model");
     }
 }

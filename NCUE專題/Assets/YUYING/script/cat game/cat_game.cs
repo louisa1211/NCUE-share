@@ -14,14 +14,17 @@ public class cat_game : MonoBehaviour
     public Slider sliderBg;
     public GameObject bg;
 
-    public Sprite bg1;
-    public Sprite bg2;
-
     public GameObject btn;
+    public GameObject panelEnd;
 
     //bg
     public GameObject mainCam;
     public GameObject ARCam;
+    public GameObject ARCamFloor;
+
+    public Sprite bgNow;
+    public Sprite bgPast;
+    public Sprite bgFuture;
 
     //cat anim
     public GameObject cat;
@@ -56,18 +59,23 @@ public class cat_game : MonoBehaviour
             sliderBg.gameObject.SetActive(true);
             bg.SetActive(true);
 
-            if(sliderBg.value == 1)
+            if (sliderBg.value == 0)
             {
-                bg.GetComponent<Image>().sprite = bg1;
+                bg.GetComponent<Image>().sprite = bgNow;
             }
-            else
+            if (sliderBg.value == 1)
             {
-                bg.GetComponent<Image>().sprite = bg2;
+                bg.GetComponent<Image>().sprite = bgPast;
+            }
+            if (sliderBg.value == 2)
+            {
+                bg.GetComponent<Image>().sprite = bgFuture;
             }
 
             //bg
             mainCam.SetActive(true);
             ARCam.SetActive(false);
+            ARCamFloor.SetActive(false);
         }
         else
         {
@@ -77,6 +85,7 @@ public class cat_game : MonoBehaviour
             //bg
             mainCam.SetActive(false);
             ARCam.SetActive(true);
+            ARCamFloor.SetActive(true);
         }
 
         //cat translate
@@ -103,6 +112,11 @@ public class cat_game : MonoBehaviour
 
     public void ClickOpen()
     {
-        SceneManager.LoadScene("cat_game_end");
+        panelEnd.SetActive(true);
+    }
+
+    public void ClickBack()
+    {
+        SceneManager.LoadScene("cat_model");
     }
 }

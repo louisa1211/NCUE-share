@@ -7,12 +7,12 @@ public class cat_box : MonoBehaviour
 {
     public GameObject canvas;
     public GameObject cube;
+    public GameObject cubeManager;
     public GameObject fish;
     public GameObject box;
     public List<GameObject> waypoints;
     private Animator animator;
     public float speed = 2;
-    public float fishSpeed = 1.7f;
     int index = 0;
     int round = 0;
 
@@ -22,7 +22,7 @@ public class cat_box : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetBool("close", false);
 
-        canvas.SetActive(false);
+        //canvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -31,7 +31,7 @@ public class cat_box : MonoBehaviour
         animator.SetBool("close", true);
 
         Vector3 fishDes = new Vector3(box.transform.position.x, (float)(box.transform.position.y + 0.7), box.transform.position.z);
-        fish.transform.position = Vector3.MoveTowards(fish.transform.position, fishDes, fishSpeed * Time.deltaTime);
+        fish.transform.position = Vector3.MoveTowards(fish.transform.position, fishDes, 2f * Time.deltaTime);
 
         Vector3 destination = waypoints[index].transform.position;
         transform.position = Vector3.MoveTowards(transform.position, waypoints[index].transform.position, speed * Time.deltaTime);
@@ -70,9 +70,10 @@ public class cat_box : MonoBehaviour
         }
 
         //Cube¥X²{
-        if(round == 3 && distance == 0)
+        if (round == 3 && distance == 0)
         {
             cube.SetActive(true);
+            cubeManager.SetActive(true);
         }
     }
 }

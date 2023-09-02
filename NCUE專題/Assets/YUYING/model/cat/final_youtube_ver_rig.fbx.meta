@@ -26,7 +26,7 @@ ModelImporter:
     second: sit look around
   - first:
       74: -8662183354224800927
-    second: sit up
+    second: stand up
   - first:
       74: 2982955500637902885
     second: walk
@@ -268,7 +268,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: sit up
+      name: stand up
       takeName: rig|sit up
       internalID: 0
       firstFrame: 0
