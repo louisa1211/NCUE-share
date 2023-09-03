@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7dca56e701e51574ab1ee8709e1215a7
+guid: bb0f52d0155e3964eab8ab37d5788833
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable:
@@ -62,17 +62,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: birdfly|Armature.002Action
-      takeName: birdfly|Armature.002Action
+      name: birdfly|Armature.002Action.001
+      takeName: birdfly|Armature.002Action.001
       internalID: 0
       firstFrame: 0
-      lastFrame: 17
+      lastFrame: 68
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 1
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
