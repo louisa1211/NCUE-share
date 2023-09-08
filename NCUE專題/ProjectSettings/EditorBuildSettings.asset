@@ -15,11 +15,14 @@ EditorBuildSettings:
     path: Assets/YUYING/scene/cat_game_intro.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/YILING/Scenes_ui/1_Home.unity
+    guid: 0559d24e96bc3f54792a6a4900191c66
+  - enabled: 1
     path: Assets/YUYING/scene/cat_game.unity
     guid: a874f47452acde54fb5cdbdda5ce1aa3
-  - enabled: 1
-    path: Assets/YUYING/scene/cat_game_end.unity
-    guid: 0ab3c55d19b5af8499ecea77c16740dc
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/TZYU/Scenes/Dog_Defult.unity
     guid: 6b860c15f7ed8574c9d2c7fd9ec45073
@@ -33,43 +36,40 @@ EditorBuildSettings:
     path: Assets/TZYU/Scenes/Dog_Win.unity
     guid: 99e8a860f8365ff4b8ebd5ba7420456f
   - enabled: 1
-    path: Assets/YILING/Scenes/1_Home.unity
-    guid: 0559d24e96bc3f54792a6a4900191c66
-  - enabled: 1
-    path: Assets/YILING/Scenes/2_Community.unity
+    path: Assets/YILING/Scenes_ui/2_Community.unity
     guid: 3546b7e5d14b92440ad27973cf6d6758
   - enabled: 1
-    path: Assets/YILING/Scenes/3_0Leaderboard.unity
+    path: Assets/YILING/Scenes_ui/3_0Leaderboard.unity
     guid: 966b0b883a1d86f47a148ad274879477
   - enabled: 1
-    path: Assets/YILING/Scenes/3_1Leaderboard_animals.unity
+    path: Assets/YILING/Scenes_ui/3_1Leaderboard_animals.unity
     guid: 4ef13b62f2c5a1d48a458e0d4970b617
   - enabled: 1
-    path: Assets/YILING/Scenes/3_2Leaderboard_footage.unity
+    path: Assets/YILING/Scenes_ui/3_2Leaderboard_footage.unity
     guid: 18010ebf424ddf9408527c78c1e5c5d5
   - enabled: 1
-    path: Assets/YILING/Scenes/4_Map.unity
+    path: Assets/YILING/Scenes_ui/4_Map.unity
     guid: d6e5cef1893eb5b4cbdf6cd9ef6ec715
   - enabled: 1
-    path: Assets/YILING/Scenes/5_Camera.unity
+    path: Assets/YILING/Scenes_ui/5_Camera.unity
     guid: 66afb028b97e17243ac958112fc31917
   - enabled: 1
-    path: Assets/YILING/Scenes/6_0Profile.unity
+    path: Assets/YILING/Scenes_ui/6_0Profile.unity
     guid: 03a2cb5d6f1a21849ba4192d9e96de85
   - enabled: 1
-    path: Assets/YILING/Scenes/6_1Profile_paststeps.unity
+    path: Assets/YILING/Scenes_ui/6_1Profile_paststeps.unity
     guid: 397473b5605428b429e57dd238d2cec4
   - enabled: 1
-    path: Assets/YILING/Scenes/6_2Profile_mypet.unity
+    path: Assets/YILING/Scenes_ui/6_2Profile_mypet.unity
     guid: b7258ad6ebb20c847ba03baa2aee7dfb
   - enabled: 1
-    path: Assets/YILING/Scenes/6_3Profile_mymap.unity
+    path: Assets/YILING/Scenes_ui/6_3Profile_mymap.unity
     guid: 6ddcb58a54151b9459e6841e21182267
   - enabled: 1
-    path: Assets/YILING/Scenes/6_4Profile_myachievements.unity
+    path: Assets/YILING/Scenes_ui/6_4Profile_myachievements.unity
     guid: 3ab1b2040bc7d8c45a0df9d0f357d3ec
   - enabled: 1
-    path: Assets/YILING/Scenes/6_5Profile_myprofile.unity
+    path: Assets/YILING/Scenes_ui/6_5Profile_myprofile.unity
     guid: abccbe74465823a4ab1e4346658a87f5
   - enabled: 1
     path: Assets/YILING/Pedometer/Example/StepCounter.unity
