@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8b5ec7e2460f144aae40d19ca04f796
+guid: 20d3092fdce5ee84e91fe092f201a5a9
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,17 +10,7 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Inter
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 57570c97fc9656d47ba2d0cad95d6bbe, type: 3}
-  - {fileID: 12800000, guid: 7098d25e995170645b48206961ed7de9, type: 3}
-  - {fileID: 12800000, guid: d638d3f773e12d4438961357f0e8af47, type: 3}
-  - {fileID: 12800000, guid: 0312183e5a3290c4cbbd65e71411fe30, type: 3}
-  - {fileID: 12800000, guid: 81290db7b2a1ccd4aacea459e2dc4195, type: 3}
-  - {fileID: 12800000, guid: 5132a445dfeb9284aaae9715dde300ec, type: 3}
-  - {fileID: 12800000, guid: 841c85ad977957248908e736cc79b11c, type: 3}
-  - {fileID: 12800000, guid: 012ea9fc0634b00428bade89eae6ae7a, type: 3}
-  - {fileID: 12800000, guid: 3028425eef66c8245acebf1b6d6baa2e, type: 3}
-  - {fileID: 12800000, guid: a35dc609114ece64e835648ddf998e16, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
