@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/YICHIUN/Scenes/B_game.unity
+- path: Assets/YUYING/scene/cat_model.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
