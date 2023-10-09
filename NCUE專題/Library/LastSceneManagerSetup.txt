@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/RUFEN/Samples/OpenAI Unity/0.1.15/Text Completion Chat/chat.unity
+- path: Assets/TZYU/Scenes2/Dog_Main.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
