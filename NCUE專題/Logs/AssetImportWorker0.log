@@ -15,11 +15,11 @@ C:/Users/gigi0/OneDrive/桌面/新增資料夾/NCUE-share/NCUE專題
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51607
+52179
 Successfully changed project path to: C:/Users/gigi0/OneDrive/桌面/新增資料夾/NCUE-share/NCUE專題
 C:/Users/gigi0/OneDrive/桌面/新增資料夾/NCUE-share/NCUE專題
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 157.25 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 126.65 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,90 +35,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003685 seconds.
+Registered in 0.002227 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.86 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 60.79 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
+- Completed reload, in  0.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1128ms)
-		BeginReloadAssembly (154ms)
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (863ms)
-			LoadAssemblies (149ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.062492 seconds.
+Registered in 0.032410 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 2.10 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.728 seconds
+- Completed reload, in  1.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1729ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (1664ms)
+		BeginReloadAssembly (199ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1446ms)
-			LoadAssemblies (199ms)
+		EndReloadAssembly (1382ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (505ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (566ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (595ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (430ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 1.59 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.9 MB.
-System memory in use after: 98.0 MB.
+Unloading 2094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.1 MB.
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2458.
-Total: 4.238800 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.142400 ms MarkObjects: 3.713000 ms  DeleteObjects: 0.134700 ms)
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2466.
+Total: 4.613900 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.183200 ms MarkObjects: 3.996000 ms  DeleteObjects: 0.170600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,121 +133,361 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TZYU/Model
-  artifactKey: Guid(6ffcccc6344d4ff41aecc22a49f4e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Model using Guid(6ffcccc6344d4ff41aecc22a49f4e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0350efa9836ccd5c9d016192fb8e0324') in 0.007456 seconds 
+  path: Assets/TZYU/Audio2/Audio2
+  artifactKey: Guid(10fee87ee26a5b4499b21169f7375126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Audio2/Audio2 using Guid(10fee87ee26a5b4499b21169f7375126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d73fbf358809afac8fee5f1feaf87f4') in 0.007317 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/TZYU/Editor2
-  artifactKey: Guid(d20e09a73bfcf4df3a55b82007965887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Editor2 using Guid(d20e09a73bfcf4df3a55b82007965887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09769c856760907a3a35fc34eedf852') in 0.003586 seconds 
+  Time since last request: 0.000385 seconds.
+  path: Assets/TZYU/Audio2/disappointed.mp3
+  artifactKey: Guid(c03e0523cefe9c74ab22980766ee0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Audio2/disappointed.mp3 using Guid(c03e0523cefe9c74ab22980766ee0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3680c8f8e978f63347dce8b74090e53') in 0.160918 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.959727 seconds.
-  path: Assets/TZYU/Image
-  artifactKey: Guid(c3af44efed171914fae60adea1066fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Image using Guid(c3af44efed171914fae60adea1066fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8da71455ae7f0ba6e078cfb324611d') in 0.027585 seconds 
+  Time since last request: 0.000353 seconds.
+  path: Assets/TZYU/Audio2/wolf.mp3
+  artifactKey: Guid(af92ed10aed4cb3419e4dcb05d4c999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Audio2/wolf.mp3 using Guid(af92ed10aed4cb3419e4dcb05d4c999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b4032023dcd0dc35190ee8a978b9a4') in 0.015226 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.085329 seconds.
-  path: Assets/TZYU/Image2
-  artifactKey: Guid(c3af44efed171914fae60adea1066fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Image2 using Guid(c3af44efed171914fae60adea1066fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea4900035fcc1dd9e5903e0cbe6058d') in 0.004322 seconds 
+  Time since last request: 0.000365 seconds.
+  path: Assets/TZYU/Audio2/pant.mp3
+  artifactKey: Guid(5ec2a31b876325c44ab423b76e213e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Audio2/pant.mp3 using Guid(5ec2a31b876325c44ab423b76e213e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d9dd3958282d2aed05a4efc98934e2') in 0.014339 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.431464 seconds.
-  path: Assets/TZYU/Material
-  artifactKey: Guid(ed6b30375dfd30f46a4c3fdb9b889c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Material using Guid(ed6b30375dfd30f46a4c3fdb9b889c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a26a5431a0eb3f682e25fff1f9e60bb') in 0.030036 seconds 
+  Time since last request: 8.769272 seconds.
+  path: Assets/TZYU/Editor2/Editor2
+  artifactKey: Guid(19da135e833f87d4d97b897c2b2fc87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Editor2/Editor2 using Guid(19da135e833f87d4d97b897c2b2fc87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141941e432c0e370164ea0ce3977948e') in 0.029894 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.220892 seconds.
-  path: Assets/TZYU/Material2
-  artifactKey: Guid(ed6b30375dfd30f46a4c3fdb9b889c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Material2 using Guid(ed6b30375dfd30f46a4c3fdb9b889c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce03cb99bb4cb81699b2def276618bc1') in 0.003608 seconds 
+  Time since last request: 3.044524 seconds.
+  path: Assets/TZYU/Image/生活美學館_未來.png
+  artifactKey: Guid(4aab798e4ea05ad42ae858eb54ca7416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Image/生活美學館_未來.png using Guid(4aab798e4ea05ad42ae858eb54ca7416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b29066ff018b7cea12b36e99f7b25e6') in 0.083292 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.428947 seconds.
-  path: Assets/TZYU/Model2
-  artifactKey: Guid(6ffcccc6344d4ff41aecc22a49f4e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Model2 using Guid(6ffcccc6344d4ff41aecc22a49f4e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c5b3d734ef925d72dc004f1604d152') in 0.002748 seconds 
+  Time since last request: 0.000384 seconds.
+  path: Assets/TZYU/Image/生活美學館_過去.png
+  artifactKey: Guid(7aa39cd12948ab845b1ca6535ed1fe78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Image/生活美學館_過去.png using Guid(7aa39cd12948ab845b1ca6535ed1fe78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780555a27428ea5d84e374bdd3e5417b') in 0.029692 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.831441 seconds.
-  path: Assets/TZYU/Others
-  artifactKey: Guid(44482bb4f40a6024bbb5ac98fe52cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Others using Guid(44482bb4f40a6024bbb5ac98fe52cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f8148d44c8808979bf8535bb941f85') in 0.005070 seconds 
+  Time since last request: 1.486557 seconds.
+  path: Assets/TZYU/Image/Image2
+  artifactKey: Guid(5f83f94a93d84324aa1aad679669c0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Image/Image2 using Guid(5f83f94a93d84324aa1aad679669c0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3784609892ffd3d38717abb419ac8b') in 0.004305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.741523 seconds.
-  path: Assets/TZYU/Others2
-  artifactKey: Guid(44482bb4f40a6024bbb5ac98fe52cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Others2 using Guid(44482bb4f40a6024bbb5ac98fe52cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c2338451a09a016951c715820d5dc4') in 0.004304 seconds 
+  Time since last request: 0.085419 seconds.
+  path: Assets/TZYU/Image/Image2/生活美學館_未來.png
+  artifactKey: Guid(de318b467a845f340bbcb533633a700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Image/Image2/生活美學館_未來.png using Guid(de318b467a845f340bbcb533633a700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec8d80f78ae1345006a57a9021481d8') in 0.021980 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.419178 seconds.
-  path: Assets/TZYU/Resources
-  artifactKey: Guid(07063b9e251267d41b6167686c622596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Resources using Guid(07063b9e251267d41b6167686c622596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718fd85cc780cc0bd187120ac4556766') in 0.003910 seconds 
+  Time since last request: 0.000358 seconds.
+  path: Assets/TZYU/Image/Image2/生活美學館_過去.png
+  artifactKey: Guid(46c7d1a1202bd314e97c9b4d31310d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Image/Image2/生活美學館_過去.png using Guid(46c7d1a1202bd314e97c9b4d31310d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3650e83639bd23f02a41f6b794c2bb') in 0.019992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.806265 seconds.
-  path: Assets/TZYU/Scenes2
-  artifactKey: Guid(68193012f893f5c4d8f8e10e4c55d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Scenes2 using Guid(68193012f893f5c4d8f8e10e4c55d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a65fb55b693dbf9747a182c4809301') in 0.002641 seconds 
+  Time since last request: 12.759826 seconds.
+  path: Assets/TZYU/Fronts/Inter-Regular.asset
+  artifactKey: Guid(9b334bb3deb78e54bbdaf0560d2b78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/Inter-Regular.asset using Guid(9b334bb3deb78e54bbdaf0560d2b78f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b7cf251cb17572c0d3d8e4cffe673a') in 0.108560 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.840396 seconds.
-  path: Assets/TZYU/Script
-  artifactKey: Guid(5960d78fe5326de47ba36b4e39d99aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Script using Guid(5960d78fe5326de47ba36b4e39d99aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e3d9e891f8a10a406f7e12d17fcee2') in 0.004879 seconds 
+  Time since last request: 0.000282 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 6.TTF
+  artifactKey: Guid(77656b1aa4a64b646821d18f087e70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 6.TTF using Guid(77656b1aa4a64b646821d18f087e70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016b0e8a04f752a9b649ce0a25a099aa') in 0.044906 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.443663 seconds.
-  path: Assets/TZYU/Script2
-  artifactKey: Guid(5960d78fe5326de47ba36b4e39d99aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Script2 using Guid(5960d78fe5326de47ba36b4e39d99aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7704dd5a203c224a1d83dbe1f1dcc14c') in 0.004717 seconds 
+  Time since last request: 0.000282 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 3.TTF
+  artifactKey: Guid(05e426029362d2c4685eb64d08a9d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 3.TTF using Guid(05e426029362d2c4685eb64d08a9d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38f90f7d0832fc402e4db7838473392') in 0.018777 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.191558 seconds.
-  path: Assets/Fronts_
-  artifactKey: Guid(d4a2a6546893ba24090e3a39beee75ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fronts_ using Guid(d4a2a6546893ba24090e3a39beee75ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e22a280ee2eb3948cde910b8dc9f7c7') in 0.006639 seconds 
+  Time since last request: 0.000345 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 7.TTF
+  artifactKey: Guid(6265ad9502d98f747b8f5c2df9dc1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 7.TTF using Guid(6265ad9502d98f747b8f5c2df9dc1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cae7206c1044100edb39ff341a82634') in 0.017985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.939169 seconds.
-  path: Assets/TZYU/Audio
-  artifactKey: Guid(f74bcee25028c604b8f93860b53b4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Audio using Guid(f74bcee25028c604b8f93860b53b4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2041e5ae10a710bbe50e11bcbdfd0d') in 0.003732 seconds 
+  Time since last request: 0.000316 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT.TTF
+  artifactKey: Guid(5000f030c0ca86745beac37eb6b207cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT.TTF using Guid(5000f030c0ca86745beac37eb6b207cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad808f60d8c2c9a99a9ac255ba4b25a') in 0.018616 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.843248 seconds.
-  path: Assets/TZYU/Audio2
-  artifactKey: Guid(f74bcee25028c604b8f93860b53b4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Audio2 using Guid(f74bcee25028c604b8f93860b53b4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bca33bf76a82b13ae5cc4b2b6091a7') in 0.003311 seconds 
+  Time since last request: 0.000270 seconds.
+  path: Assets/TZYU/Fronts/MSJHL.TTC
+  artifactKey: Guid(33d84c3373c4d8f4bbbb5cb1f5b386d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/MSJHL.TTC using Guid(33d84c3373c4d8f4bbbb5cb1f5b386d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6395483829b8281a81d655819bd7627') in 0.047878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.976455 seconds.
-  path: Assets/TZYU/Model
-  artifactKey: Guid(8050db2136abefe489b65457563e5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Model using Guid(8050db2136abefe489b65457563e5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fec280e925e0a96aefb2b1ae1673f2') in 0.003223 seconds 
+  Time since last request: 0.000387 seconds.
+  path: Assets/TZYU/Fronts/TAIPEISANSTCBETA-BOLD SDF.asset
+  artifactKey: Guid(4fac794d321f6a94da7fa07aacfbb77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/TAIPEISANSTCBETA-BOLD SDF.asset using Guid(4fac794d321f6a94da7fa07aacfbb77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea9730e533b016e763262b341d05891') in 1.738307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.093554 seconds.
-  path: Assets/TZYU/Material
-  artifactKey: Guid(8cceb03c4cb1bd441b4d53c4d36c98b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Material using Guid(8cceb03c4cb1bd441b4d53c4d36c98b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf3f2872faa637245ae70b86ee8fbd5') in 0.005884 seconds 
+  Time since last request: 0.000353 seconds.
+  path: Assets/TZYU/Image2/formal.png
+  artifactKey: Guid(db552c8fc5ea6974791271a1d56d53ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Image2/formal.png using Guid(db552c8fc5ea6974791271a1d56d53ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4439dcd5666dc48b4007ac78252528be') in 0.040889 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.307338 seconds.
-  path: Assets/TZYU/Image
-  artifactKey: Guid(4c53eea8f07c13a4c800786253e73510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Image using Guid(4c53eea8f07c13a4c800786253e73510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f42d949869c5e820ab276e7b13f2c78') in 0.003391 seconds 
+  Time since last request: 0.000348 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 13.TTF
+  artifactKey: Guid(44aa48c4a2287e24e94156dd0dab311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 13.TTF using Guid(44aa48c4a2287e24e94156dd0dab311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1339aeedf2d5732e39bb9fd3d55c0a4e') in 0.019857 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.450847 seconds.
+  Time since last request: 0.000329 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 10.TTF
+  artifactKey: Guid(bbc78ebd992e0e94685db9ded115334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 10.TTF using Guid(bbc78ebd992e0e94685db9ded115334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648fbe74d7a6c3bca465440066e9b555') in 0.015941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 17.TTF
+  artifactKey: Guid(59439ab7451e0d74f9b91bbc72b5c902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 17.TTF using Guid(59439ab7451e0d74f9b91bbc72b5c902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2145e6e11e01e464236018284c64ff37') in 0.017487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/TZYU/Fronts/Inter-Regular_2.asset
+  artifactKey: Guid(25e8bbe8149bf274aaade0c4053a1ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/Inter-Regular_2.asset using Guid(25e8bbe8149bf274aaade0c4053a1ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9d720b6907a3e0b186e440132c1adc') in 0.024024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 1.TTF
+  artifactKey: Guid(e4deff2a2b9530042821f31640d0376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 1.TTF using Guid(e4deff2a2b9530042821f31640d0376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6cc4f62b3ca27548e2f832ba05c9c6') in 0.017125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 15.TTF
+  artifactKey: Guid(92ba4578623779343897251a3b2e5c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 15.TTF using Guid(92ba4578623779343897251a3b2e5c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea675b63b82c1f654a0b8a41f7053ba3') in 0.017307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 16.TTF
+  artifactKey: Guid(29c901bad1b695747a9edbe1b41e4e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 16.TTF using Guid(29c901bad1b695747a9edbe1b41e4e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7f8862840b0360b8f47b4b29a188c9') in 0.016314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 11.TTF
+  artifactKey: Guid(e8b433696c4e92b458dea5975a5137f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 11.TTF using Guid(e8b433696c4e92b458dea5975a5137f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5217e6fcbef6e04066ef0cafbfae6c6c') in 0.015979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/TZYU/Fronts/MSJH.TTC
+  artifactKey: Guid(e8ced1e2ee03dc34394cd9629495bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/MSJH.TTC using Guid(e8ced1e2ee03dc34394cd9629495bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045906b5c6847454d1faa08d748b53ba') in 0.055830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 5.TTF
+  artifactKey: Guid(313ee735f9f2647469df6fa477a4af4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 5.TTF using Guid(313ee735f9f2647469df6fa477a4af4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33adfc9a8da2fd016da992c602ce6f0') in 0.018938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 8.TTF
+  artifactKey: Guid(5052509f1032c5a41b18f0b86af8bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 8.TTF using Guid(5052509f1032c5a41b18f0b86af8bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df64e56aa74f7195c4f26af47ba24143') in 0.018200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 9.TTF
+  artifactKey: Guid(607fd2998fcdff94391697b07c5ea900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 9.TTF using Guid(607fd2998fcdff94391697b07c5ea900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5468912453f49faa4da075a5c8304c0b') in 0.016995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 12.TTF
+  artifactKey: Guid(9fdb8aeb1ab2a9747bd8024d6a6b97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 12.TTF using Guid(9fdb8aeb1ab2a9747bd8024d6a6b97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14716c8bb285d4156b766bc46700c958') in 0.016747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 14.TTF
+  artifactKey: Guid(bbc37cfa31c5a1d4dad12535a664e033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 14.TTF using Guid(bbc37cfa31c5a1d4dad12535a664e033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f308e4cd028df8c948eef1aaf20c6ad0') in 0.015603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT SDF.asset
+  artifactKey: Guid(f54e39d874c5e72498b022fcc69d0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT SDF.asset using Guid(f54e39d874c5e72498b022fcc69d0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba9d8a54c9cbb823b1625a34bdfdc9b') in 0.021665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 2.TTF
+  artifactKey: Guid(020a570030723f54a88ece3b45c900df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 2.TTF using Guid(020a570030723f54a88ece3b45c900df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542518e83b229802dff18656df237faf') in 0.016863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/TZYU/Fronts/MSJHL SDF.asset
+  artifactKey: Guid(71a205595bf20f64db6251c57d5ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/MSJHL SDF.asset using Guid(71a205595bf20f64db6251c57d5ce245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affa078676f98aa8380b23a627512829') in 0.043285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/TZYU/Fronts/TAIPEISANSTCBETA-BOLD.TTF
+  artifactKey: Guid(4173c0e27c2221044a1c3571c83570dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/TAIPEISANSTCBETA-BOLD.TTF using Guid(4173c0e27c2221044a1c3571c83570dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e1573c1e61bc572bed03c6673a1b42') in 0.042237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 4.TTF
+  artifactKey: Guid(9a8bc39074f6839489dbfc64295ea48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 4.TTF using Guid(9a8bc39074f6839489dbfc64295ea48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc95bfe60d9edef5fff23aa35357286') in 0.018531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.986748 seconds.
+  path: Assets/TZYU/Material/Material2/Materials/Image_0.mat
+  artifactKey: Guid(0aeca00e052d3f34199fe70e1486468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Material/Material2/Materials/Image_0.mat using Guid(0aeca00e052d3f34199fe70e1486468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15068c90e3ab40ec616b83cc7b506eed') in 0.130460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.788178 seconds.
+  path: Assets/TZYU/Material2/Materials/Image_0.mat
+  artifactKey: Guid(fa7f20e4b1d0e544f8b4249fbb39e343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Material2/Materials/Image_0.mat using Guid(fa7f20e4b1d0e544f8b4249fbb39e343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cee1530735be2bac57250ff0708547b') in 0.083836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.548188 seconds.
+  path: Assets/TZYU/Model/bone 1.mat
+  artifactKey: Guid(da9bee09fd0bf4940902208ac9d1bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model/bone 1.mat using Guid(da9bee09fd0bf4940902208ac9d1bbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a52619cb30805664e788cceb1b0d2c') in 0.015470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/TZYU/Model/standing.fbx
+  artifactKey: Guid(adc890f45785fe745a88188f7bb915ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model/standing.fbx using Guid(adc890f45785fe745a88188f7bb915ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dce1184d81c94fa2bdf452b0941185') in 0.204079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/TZYU/Model/bone.mat
+  artifactKey: Guid(5a2619b2733d0cb45910d5d1935fe9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model/bone.mat using Guid(5a2619b2733d0cb45910d5d1935fe9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75a691893456bf375ba00aa4b612531') in 0.170601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/TZYU/Model/run_origin.fbx
+  artifactKey: Guid(4476f1dd5a5643149bc92c0ff03491b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model/run_origin.fbx using Guid(4476f1dd5a5643149bc92c0ff03491b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1795ced68d125e765f6a400569eec493') in 0.091444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.045968 seconds.
+  path: Assets/TZYU/Model2/anger.fbx
+  artifactKey: Guid(8a461963880c18744ad831903c9e05f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model2/anger.fbx using Guid(8a461963880c18744ad831903c9e05f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25816e7d30dd2284c3959b9edce1135b') in 0.125431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/TZYU/Model2/bone.obj
+  artifactKey: Guid(9de747881cf831546a2e96a0085b9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model2/bone.obj using Guid(9de747881cf831546a2e96a0085b9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619c00fe94954cc830f4bde5f287069d') in 0.193035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/TZYU/Model2/run.fbx
+  artifactKey: Guid(12c00f6b312bc7c4eb5f703c28f2ce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model2/run.fbx using Guid(12c00f6b312bc7c4eb5f703c28f2ce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9828389b7e56f26109495e098075848') in 0.094536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.386738 seconds.
+  path: Assets/TZYU/Model2/Controller
+  artifactKey: Guid(32955b688da83424a8cf72a4bdfcf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model2/Controller using Guid(32955b688da83424a8cf72a4bdfcf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322a8330289dc789777466b577c63a0b') in 0.003992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.064594 seconds.
+  path: Assets/TZYU/Model2/Controller/shiba_inu_2.controller
+  artifactKey: Guid(58b2f0adb6fff384ba3fa1437a443592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Model2/Controller/shiba_inu_2.controller using Guid(58b2f0adb6fff384ba3fa1437a443592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f535b38929d8b684cef9ab8cdb71af33') in 0.010888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.425616 seconds.
+  path: Assets/TZYU/Others2/MINGLIU SDF.asset
+  artifactKey: Guid(0278929f165b0e44bad6a6b03aeb6fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Others2/MINGLIU SDF.asset using Guid(0278929f165b0e44bad6a6b03aeb6fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e24517ae2e29c2532a5df5e9f531c5') in 0.021141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/TZYU/Others2/MINGLIU.TTC
+  artifactKey: Guid(56a9efe303230b24981c7a08dc3503c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Others2/MINGLIU.TTC using Guid(56a9efe303230b24981c7a08dc3503c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1c687e3bd368cd549f5bc043fc5fd0') in 0.005691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.019362 seconds.
+  path: Assets/TZYU/Others2/CameraMove.cs
+  artifactKey: Guid(e33b328287c1f1b4e9eb1453287ba9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Others2/CameraMove.cs using Guid(e33b328287c1f1b4e9eb1453287ba9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21cb8ab5b50a9c5433f90822c636e69') in 0.019159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.193512 seconds.
+  path: Assets/TZYU/Others2/UpdateGPS.cs
+  artifactKey: Guid(4aeede92ad3fea3459757ca8af85c6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Others2/UpdateGPS.cs using Guid(4aeede92ad3fea3459757ca8af85c6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c4c0146119665053eafc3f443f81c2') in 0.003746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.839700 seconds.
+  path: Assets/TZYU/Scenes2/Dog_Defult.unity
+  artifactKey: Guid(0536ffdbb3c4a414bae84b73d5eb8559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Scenes2/Dog_Defult.unity using Guid(0536ffdbb3c4a414bae84b73d5eb8559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cc58d9440acaef049773b669d4a03a') in 0.004998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.735351 seconds.
+  path: Assets/TZYU/Script2/ARController.cs
+  artifactKey: Guid(4597967f9700490408867440297dadb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Script2/ARController.cs using Guid(4597967f9700490408867440297dadb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759522414f22083f9ffbd723a3e4814a') in 0.004105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.434199 seconds.
+  path: Assets/TZYU/Script2/DogMove.cs
+  artifactKey: Guid(9426af3d37e9f6c4e80189222bd2acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Script2/DogMove.cs using Guid(9426af3d37e9f6c4e80189222bd2acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98693ea7bdbbdd9ea71e5e2de0ba139') in 0.003306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.984450 seconds.
+  path: Assets/TZYU/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(5d36273524bbca7449db20dbaa79ebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/XR/Loaders/AR Core Loader.asset using Guid(5d36273524bbca7449db20dbaa79ebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4d2b8f470fcd609e73e687acb74ebd') in 0.004255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.267263 seconds.
+  path: Assets/TZYU/XR2/Settings/AR Core Settings.asset
+  artifactKey: Guid(bc0d202051bcecd41bdc31faeadc7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/XR2/Settings/AR Core Settings.asset using Guid(bc0d202051bcecd41bdc31faeadc7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d2d88f88a13f46a57bf5d248151647') in 0.003601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.034111 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(d30d0569910a30b469e9f70bc451a0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(d30d0569910a30b469e9f70bc451a0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ede31aafc6e105d24e840331a9a9063') in 0.004944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.227341 seconds.
+  path: Assets/TZYU/Scenes/Dog_Lose.unity
+  artifactKey: Guid(918220dbcd8cbaf49aa6d938092b3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Scenes/Dog_Lose.unity using Guid(918220dbcd8cbaf49aa6d938092b3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b2a4b89351b96244a2493029635c9') in 0.003894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.953392 seconds.
   path: Assets/TZYU/Scenes/Dog_Main.unity
-  artifactKey: Guid(79a9e3537ba693d48979f5c4b48d1c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Scenes/Dog_Main.unity using Guid(79a9e3537ba693d48979f5c4b48d1c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68532663a6264c6a8ada1ed059b4ce54') in 0.003531 seconds 
+  artifactKey: Guid(98894781aaba61e4ea4e66b401e9311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Scenes/Dog_Main.unity using Guid(98894781aaba61e4ea4e66b401e9311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cce65faaa47143b5026b19802aa917') in 0.004262 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
