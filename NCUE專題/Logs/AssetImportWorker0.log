@@ -15,11 +15,11 @@ C:/Users/gigi0/OneDrive/桌面/ncue2/NCUE-share/NCUE專題
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52042
+52550
 Successfully changed project path to: C:/Users/gigi0/OneDrive/桌面/ncue2/NCUE-share/NCUE專題
 C:/Users/gigi0/OneDrive/桌面/ncue2/NCUE-share/NCUE專題
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 125.40 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 85.13 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -35,90 +35,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002127 seconds.
+Registered in 0.003101 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.84 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 39.15 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (865ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (509ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (672ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (322ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (272ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (130ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027249 seconds.
+Registered in 0.029672 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.77 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.633 seconds
+- Completed reload, in  0.828 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1634ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (828ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1355ms)
-			LoadAssemblies (180ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (569ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (405ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 15 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.9 MB.
 System memory in use after: 98.0 MB.
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2458.
-Total: 4.801900 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.081700 ms MarkObjects: 4.358000 ms  DeleteObjects: 0.157400 ms)
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 3.350300 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.891700 ms  DeleteObjects: 0.130900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,37 +133,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TZYU/SamplesResources
-  artifactKey: Guid(006cc2190189d9648b89bb0ffd25677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/SamplesResources using Guid(006cc2190189d9648b89bb0ffd25677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670e9ff7cf331919327c2054f3e9c8b5') in 0.008144 seconds 
+  path: Assets/TZYU/Material/Materials
+  artifactKey: Guid(7932bf74c3b3ad44a9a2157424f9e8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Material/Materials using Guid(7932bf74c3b3ad44a9a2157424f9e8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0074d9ccde78c277ea980635d53f84') in 0.008952 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.340055 seconds.
-  path: Assets/StreamingAssets
-  artifactKey: Guid(27c4b35e49aa03040815d2c59a39fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets using Guid(27c4b35e49aa03040815d2c59a39fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4872c99964aa17e22d4b3801c5bd2e3b') in 0.004907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.562019 seconds.
-  path: Assets/StreamingAssets2
-  artifactKey: Guid(27c4b35e49aa03040815d2c59a39fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets2 using Guid(27c4b35e49aa03040815d2c59a39fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537b70e47e03b7a3052c94522a6e87b') in 0.003328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.617109 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(dea287c9976ad03448b54d8a73150ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(dea287c9976ad03448b54d8a73150ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79320ec6e1329b8d11a5d26024bce4df') in 0.003913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.045610 seconds.
-  path: Assets/Scenes2
-  artifactKey: Guid(dea287c9976ad03448b54d8a73150ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2 using Guid(dea287c9976ad03448b54d8a73150ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fbc5ad01f0ea49f0a68bc55f400998') in 0.003392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.443754 seconds.
-  path: Assets/TZYU/Scenes2/Dog_Main.unity
-  artifactKey: Guid(d830404843e7a6146b023f3257cd6830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TZYU/Scenes2/Dog_Main.unity using Guid(d830404843e7a6146b023f3257cd6830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a5c258118691af3275b509b49bcf2d') in 0.003075 seconds 
+  Time since last request: 0.000538 seconds.
+  path: Assets/TZYU/Material
+  artifactKey: Guid(ed6b30375dfd30f46a4c3fdb9b889c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TZYU/Material using Guid(ed6b30375dfd30f46a4c3fdb9b889c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a26a5431a0eb3f682e25fff1f9e60bb') in 0.002932 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
